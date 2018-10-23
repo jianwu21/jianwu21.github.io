@@ -2,8 +2,8 @@
 title: Jian Wu's personal website
 SEOTitle: Jian Wu
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: ""
+email: wujianinwuxue@gmail.com
+description: "Jian Wu's website"
 keyword: ""
 #url: "https://huangxuan.me"              # your host, for absolute URL
 #baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
+# weibo_username:     huxpro
+# zhihu_username:     huxpro
 github_username:    huxpro
-twitter_username:   huxpro
+# twitter_username:  jaggerwu
 
 
 # Build settings
