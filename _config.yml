@@ -1,86 +1,54 @@
-# Site settings
-title: Jian Wu's personal website
-SEOTitle: Jian Wu
-header-img: img/home-bg.jpg
+title: Jian Wu
+author: Jian Wu 
 email: wujianinwuxue@gmail.com
-description: "Jian Wu's website"
-keyword: ""
-#url: "https://huangxuan.me"              # your host, for absolute URL
-#baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+description: > # this means to ignore newlines until "show_exerpts:"
+  
+show_excerpts: true # set to true to show excerpts on the homepage
 
-# Publish posts or collection documents with a future date.
-future: true
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Jian Wu 
+  tagline: Quant Developer
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
 
-# SNS settings
-RSS: false
-# weibo_username:     huxpro
-# zhihu_username:     huxpro
-github_username:    JaggerWu
-# twitter_username:  jaggerwu
+  # generate social links in footer
+  social_links:
+    twitter: thelehhman
+    github:  thelehhman
+    linkedIn: in/thelehhman
+    rss: rss
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
 
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN  
+theme: plainwhite
 
-
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
-
-
-# Disqus settings
-disqus_username: hux
-
-# Netease settings
-netease_comment: false
-
-
-
-# Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-#ga_domain: huangxuan.me
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: ""
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-theme: jekyll-theme-architect
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-feed
