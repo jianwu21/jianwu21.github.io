@@ -79,22 +79,6 @@ plainwhite:
   sitemap: true
 ```
 
-**Excerpts**
-
-Excerpts can be enabled by adding the following line to your `_config.yml`
-```yaml
-show_excerpts: true
-```
-**Layouts**
-
-- Home
-- Page
-- Post
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/thelehhman/plainwhite-jekyll. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
 ## Development
 
 To set up your environment to develop this theme, run `bundle install`.
