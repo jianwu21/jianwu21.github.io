@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Machine Ling in Computational Finance"
+title:  "Time series forecast"
 date:   2019-03-23 21:03:36 +0530
 categories: C++ Python
 ---
@@ -9,7 +9,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ```cpp
 int main()
 {
-	int a[] = {1, 2, 4, 5};
+    int a[] = {1, 2, 4, 5};
 }
 ```
 
