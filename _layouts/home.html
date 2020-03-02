@@ -23,7 +23,7 @@ layout: default
     </div>
   </li>
   {%- for post in site.posts -%}
-  <li>
+  <!-- <li>
     {%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
     <a class="post-link" href="{{ post.url | relative_url }}">
       <h2 class="post-title">{{ post.title | escape }}</h2>
@@ -41,7 +41,7 @@ layout: default
       {{ post.excerpt }}
       {%- endif -%}
     </div>
-  </li>
+  </li> -->
   {%- endfor -%}
 </ul>
 
